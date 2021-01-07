@@ -1,0 +1,124 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1855611000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the DaviesGroup webpage",
+            "match": {
+              "location": "com.DaviesGroup.step_definitions.HomeStepDefs.i_open_the_davies_group_webpage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-30T21:20:22.747Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1994380000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.DaviesGroup.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "verify About module",
+        "description": "",
+        "id": "about-module;verify-about-module",
+        "after": [
+          {
+            "result": {
+              "duration": 100568000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.DaviesGroup.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 978482000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click the \"Locations\" submodule under \"About\" Us module",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Locations\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"About\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.DaviesGroup.step_definitions.AboutStepDefs.i_click_the_submodule_under_us_module(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15380687000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I capture the \"Birmingham\" office address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Birmingham\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.DaviesGroup.step_definitions.AboutStepDefs.I_capture_the_office_address(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@daviesgroup"
+          },
+          {
+            "name": "@about"
+          }
+        ]
+      }
+    ],
+    "name": "About Module",
+    "description": "",
+    "id": "about-module",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/About.feature",
+    "tags": [
+      {
+        "name": "@daviesgroup",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
